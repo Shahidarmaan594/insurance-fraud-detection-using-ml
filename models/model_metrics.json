@@ -1,0 +1,31 @@
+{
+  "accuracy": 0.92,
+  "precision": 0.8409090909090909,
+  "recall": 0.74,
+  "f1_score": 0.7872340425531915,
+  "roc_auc": 0.9414000000000001,
+  "confusion_matrix": [
+    [
+      386,
+      14
+    ],
+    [
+      26,
+      74
+    ]
+  ],
+  "feature_importance": {
+    "policy_ratio": 0.44597088896019044,
+    "normalized_amount": 0.16623251884775594,
+    "normalized_frequency": 0.13531579532139534,
+    "normalized_age": 0.07547468774532273,
+    "claim_frequency_encoded": 0.06023032727577096,
+    "claim_amount_category_encoded": 0.05805030407951707,
+    "age_group_encoded": 0.01550727469307162,
+    "claim_type_property": 0.012161834026778543,
+    "claim_type_liability": 0.01139939690015995,
+    "claim_type_auto": 0.010037834879841894,
+    "claim_type_health": 0.00961913727019557
+  },
+  "version": "1.0.0"
+}
